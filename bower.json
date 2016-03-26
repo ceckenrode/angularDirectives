@@ -1,0 +1,27 @@
+{
+  "name": "angularDirectives",
+  "homepage": "https://github.com/ceckenrode/angularDirectives.git",
+  "authors": [
+    "Christian Eckenrode"
+  ],
+  "description": "Practice with Angular Directives",
+  "main": "server.js",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "/public/libs/bower_components"
+  ],
+  "dependencies": {
+    "Materialize": "materialize#^0.97.5",
+    "angular": "^1.5.2",
+    "material-design-icons-iconfont": "^2.0.4",
+    "webui-popover": "^1.2.5",
+    "angular-ui-router": "^0.2.18"
+  },
+  "private": true
+}

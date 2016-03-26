@@ -1,0 +1,24 @@
+{
+  "name": "angularDirectives",
+  "version": "1.0.0",
+  "description": "Practice with anuglar directives",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ceckenrode/angularDirectives.git"
+  },
+  "author": "Christian Eckenrode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ceckenrode/angularDirectives.git"
+  },
+  "homepage": "https://github.com/ceckenrode/angularDirectives.git",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongoose": "^4.4.8",
+    "morgan": "^1.7.0"
+  }
+}
