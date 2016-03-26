@@ -4,7 +4,7 @@ angular.module("angularDirectives").('omdbDirective', function() {
         scope: {
             data: '@'
         },
-        template: "<input type='text'/><a class='waves-effect waves-light btn'>Search</a>",
+        templateUrl: "omdbDirective.html",
         controller: function($scope, $http) {
             $scope.movieSearch;
             $scope.searchForMovie = function() {

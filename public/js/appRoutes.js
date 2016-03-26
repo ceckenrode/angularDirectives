@@ -7,7 +7,7 @@ angular.module("angularDirectives").config(function($stateProvider, $urlRouterPr
   $stateProvider
     .state('home', {
       url: '/',
-      templateUrl: 'views/home/home.html'
+      templateUrl: '/views/home/home.html'
     })
 
   $locationProvider.html5Mode(true);
